@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="outer-wrapper">
+      <div class="circle">
+        <img id="star" src="images/icon-star.svg" alt="Star">
+      </div>
+      <h1>How did we do?</h1>
+      <p>
+      </p>
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!</p> 
+
+      <form name="quiz" id="quiz">
+        <div class="horizontal">
+            <label id="clicked" for="1" onclick="myFunction()">1</label>
+          <p><input class="hide" id="1" type="radio" name="question1" value="1"></p>
+          <label id="clicked2" for="2" onclick="myFunction2()">2</label>
+          <p><input class="hide" id="2" type="radio" name="question1" value="2"></p>
+          <label id="clicked3" for="3" onclick="myFunction3()">3</label>
+          <p><input class="hide" id="3" type="radio" name="question1" value="3"></p>
+          <label id="clicked4" for="4" onclick="myFunction4()">4</label>
+          <p><input class="hide" id="4" type="radio" name="question1" value="4"></p>
+          <label id="clicked5" for="5" onclick="myFunction5()">5</label>
+          <p><input class="hide" id="5" type="radio" name="question1" value="5"></p>
+        </div> 
+  
+        <input class="btn" type="button" name="" value="Submit" onclick="check()">
+      </form>
+      
+    </div> 
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    
+
+    <div class="submitted-1">
+      <div class="thanks">
+        <img src="images/illustration-thank-you.svg" alt="Thank you picture">
+        <div class="choice">
+          <p class="position">You selected 1 out of 5</p>
+        </div> 
+        <h1 class="ty">Thank you!</h1> 
+        <p class="desk">We appreciate you taking the time to give a rating. If
+        you ever need more support, don’t hesitate to get in touch!</p> 
+
+        <!-- Thank you state end -->
+      </div>
+    </div>
+
+    <div class="submitted-2">
+      <div class="thanks">
+        <img src="images/illustration-thank-you.svg" alt="Thank you picture">
+        <div class="choice">
+          <p class="position">You selected 2 out of 5</p>
+        </div> 
+        <h1 class="ty">Thank you!</h1> 
+        <p class="desk">We appreciate you taking the time to give a rating. If
+        you ever need more support, don’t hesitate to get in touch!</p> 
+
+        <!-- Thank you state end -->
+      </div>
+
+      <!-- Thank you state end -->
+    </div>
+
+    <div class="submitted-3">
+      <div class="thanks">
+        <img src="images/illustration-thank-you.svg" alt="Thank you picture">
+        <div class="choice">
+          <p class="position">You selected 3 out of 5</p>
+        </div> 
+        <h1 class="ty">Thank you!</h1> 
+        <p class="desk">We appreciate you taking the time to give a rating. If
+        you ever need more support, don’t hesitate to get in touch!</p> 
+
+        <!-- Thank you state end -->
+      </div>
+
+      <!-- Thank you state end -->
+    </div>
+
+    <div class="submitted-4">
+      <div class="thanks">
+        <img src="images/illustration-thank-you.svg" alt="Thank you picture">
+        <div class="choice">
+          <p class="position">You selected 4 out of 5</p>
+        </div> 
+        <h1 class="ty">Thank you!</h1> 
+        <p class="desk">We appreciate you taking the time to give a rating. If
+        you ever need more support, don’t hesitate to get in touch!</p> 
+
+        <!-- Thank you state end -->
+      </div>
+
+      <!-- Thank you state end -->
+    </div>
+
+    <div class="submitted-5">
+      <div class="thanks">
+        <img src="images/illustration-thank-you.svg" alt="Thank you picture">
+        <div class="choice">
+          <p class="position">You selected 5 out of 5</p>
+        </div> 
+        <h1 class="ty">Thank you!</h1> 
+        <p class="desk">We appreciate you taking the time to give a rating. If
+        you ever need more support, don’t hesitate to get in touch!</p> 
+
+        <!-- Thank you state end -->
+      </div>
+
+      <!-- Thank you state end -->
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    
+  </body>
+<!-- You need to make sure that you put the script link at the bottom of the page so that it loads AFTER the html, as if you put it at the top it will load BEFORE the html -->
+  <script src="js/script.js"></script>
+</html>
